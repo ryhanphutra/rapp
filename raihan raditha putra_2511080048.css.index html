@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Pribadi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <h1>raihan raditha putra</h1>
+        <p>wellcome to my bio</p>
+    </header>
+
+    <!-- NAVIGASI / MENU -->
+    <nav>
+        <ul>
+            <li><a href="#profil">profil</a></li>
+            <li><a href="#hobi">hobi</a></li>
+            <li><a href="#kontak">kontak</a></li>
+        </ul>
+    </nav>
+
+    <!-- KONTEN UTAMA -->
+    <main>
+        <section id="profil" class="card">
+            <h2>tentang saya</h2>
+            <p>Gue orangnya suka banget jalan-jalan, nongkrong, dan kenalan sama orang baru. Hidup tuh terlalu singkat buat diem di satu tempat, jadi ya... ngopi sambil tuker cerita aja udah cukup bikin bahagia. 😎☕</p>
+        </section>
+
+        <section id="hobi" class="card">
+            <h2>hobi saya</h2>
+            <ul>
+                <li>menggambar</li>
+                <li>nonton bola</li>
+                <li>jalan-jalan</li>
+                <li>ngopi</li>
+            </ul>
+        </section>
+    </main>
+    
+    <!-- FOOTER -->
+    <footer id="kontak">
+        <p>hubungi saya di <a href="https://www.instagram.com/rhanphutra_?igsh=eWh0ZmozbGtqcjRn">instagram</a></p>
+        <P>&copy; instagram</P>
+    </footer>
+</body>
+</html>
